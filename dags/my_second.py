@@ -9,7 +9,7 @@ default_args = {
 with DAG(
     dag_id='test_dag_lol',
     default_args=default_args,
-    schedule='@weekly',
+    schedule='@monthly',
     catchup=False
 ) as dag:
 
