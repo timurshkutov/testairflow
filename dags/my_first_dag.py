@@ -7,7 +7,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='my_first_dag',
+    dag_id='test_dag_lol',
     default_args=default_args,
     schedule='@hourly',
     catchup=False
