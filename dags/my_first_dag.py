@@ -9,7 +9,7 @@ default_args = {
 with DAG(
     dag_id='my_first_dag',
     default_args=default_args,
-    schedule='@hour',
+    schedule='@hourly',
     catchup=False
 ) as dag:
 
